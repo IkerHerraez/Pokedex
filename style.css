@@ -1,0 +1,126 @@
+body {
+    font-family: "Iosevka Charon Mono", monospace;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.pag_inicio {
+    background-image: url('./img/kanto-map.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.pag_pokemon {
+    background-color: rgb(251, 226, 207);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.pag_pokemon>div {
+    display: block;
+    height: 100vh;
+}
+
+h1 {
+    font-size: 3.5em;
+    text-align: center;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+    width: fit-content;
+    margin: auto;
+    margin-top: 20px;
+    padding: 0px 20px;
+    border-radius: 10px;
+}
+
+h2 {
+    font-size: 3em;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    margin: auto;
+    margin-top: 20px;
+    padding: 0px 20px;
+}
+
+h4 {
+    font-size: 1.1em;
+    margin: 20px 0 0 0;
+    padding: 0px 20px;
+}
+
+.pokedex {
+    width: 350px;
+}
+
+.pokevolucion {
+    width: 250px;
+}
+
+a .lista_pokemon {
+    font-size: 1.33em;
+    margin: 0;
+}
+
+.lista_pokemon ul {
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+p {
+    font-size: 1em;
+    margin-top: 5px;
+    padding-left: 20px;
+}
+
+.inicio {
+    background-color: rgb(255, 0, 0);
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.fuego {
+    background-color: rgb(243, 153, 50);
+    border-radius: 5px;
+    padding: 3px;
+}
+
+.fantasma {
+    background-color: rgb(154, 37, 162);
+    border-radius: 5px;
+    padding: 3px;
+}
+
+.veneno {
+    background-color: rgb(208, 7, 222);
+    border-radius: 5px;
+    padding: 3px;
+}
+
+.dragon {
+    background-color: rgb(107, 56, 202);
+    border-radius: 5px;
+    padding: 3px;
+}
+
+.volador {
+    background-color: rgb(32, 155, 232);
+    border-radius: 5px;
+    padding: 3px;
+}
+
+.evolucion {
+    display: flex;
+    background-color: rgb(175, 160, 149);
+}
+
+.evolucion>div {
+    width: 100%;
+    text-align: center;
+}
