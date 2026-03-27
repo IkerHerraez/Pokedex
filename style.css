@@ -115,6 +115,24 @@ p {
     padding: 3px;
 }
 
+.acero {
+    background-color: rgb(156, 156, 156);
+    border-radius: 5px;
+    padding: 3px;
+}
+
+.hada {
+    background-color: rgb(255, 155, 232);
+    border-radius: 5px;
+    padding: 3px;
+}
+
+.psiquico {
+    background-color: rgb(221, 4, 245);
+    border-radius: 5px;
+    padding: 3px;
+}
+
 .evolucion {
     display: flex;
     background-color: rgb(175, 160, 149);
