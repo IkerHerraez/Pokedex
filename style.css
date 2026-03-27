@@ -142,3 +142,7 @@ p {
     width: 100%;
     text-align: center;
 }
+
+.lista_pokemon {
+    font-size: 1.33em;
+}
